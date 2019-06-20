@@ -29,7 +29,7 @@
 			"Type": "String"
 		},
 		"Plan": {
-			"Type": "String",
+			"Type": "List<String>",
 			"Default": "RDS db.t2.small - 1 Core, 2GB Mem",
 			"AllowedValues": [ 
 				"RDS db.m4.large - 2 Core, 8GB Mem", 
