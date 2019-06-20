@@ -31,7 +31,26 @@
 		"Plan": {
 			"Type": "String",
 			"Default": "RDS db.t2.small - 1 Core, 2GB Mem",
-			"AllowedValues": [ "RDS db.m4.large - 2 Core, 8GB Mem", "RDS db.m4.xlarge - 4 Core, 13GB Mem", "RDS db.m4.2xlarge - 8 Core, 25.5GB Memory", "RDS db.m4.4xlarge - 16 Core, 53.5GB Mem", "RDS db.m4.10xlarge - 40 Core, 124.5GB Mem", "RDS db.m3.medium - 1 Core, 3.75GB Mem", "RDS db.m3.large - 2 Core, 7.5GB Mem", "RDS db.m3.xlarge - 4 Core, 15GB Mem", "RDS db.m3.2xlarge - 8 Core, 30GB Mem", "RDS db.r3.large - 2 Core, 15GB Mem", "RDS db.r3.xlarge - 4 Core, 30.5GB Mem", "RDS db.r3.2xlarge - 8 Core, 61GB Mem", "RDS db.r3.4xlarge - 16 Core, 122GB Mem", "RDS db.r3.8xlarge - 32 Core, 244GB Mem", "RDS db.t2.micro - 1 Core, 1GB Mem", "RDS db.t2.small - 1 Core, 2GB Mem", "RDS db.t2.medium - 2 Core, 4GB Mem", "RDS db.t2.large - 2 Core, 8GB Mem"],
+			"AllowedValues": [ 
+				"RDS db.m4.large - 2 Core, 8GB Mem", 
+				"RDS db.m4.xlarge - 4 Core, 13GB Mem", 
+				"RDS db.m4.2xlarge - 8 Core, 25.5GB Memory", 
+				"RDS db.m4.4xlarge - 16 Core, 53.5GB Mem", 
+				"RDS db.m4.10xlarge - 40 Core, 124.5GB Mem", 
+				"RDS db.m3.medium - 1 Core, 3.75GB Mem", 
+				"RDS db.m3.large - 2 Core, 7.5GB Mem", 
+				"RDS db.m3.xlarge - 4 Core, 15GB Mem", 
+				"RDS db.m3.2xlarge - 8 Core, 30GB Mem", 
+				"RDS db.r3.large - 2 Core, 15GB Mem", 
+				"RDS db.r3.xlarge - 4 Core, 30.5GB Mem", 
+				"RDS db.r3.2xlarge - 8 Core, 61GB Mem", 
+				"RDS db.r3.4xlarge - 16 Core, 122GB Mem", 
+				"RDS db.r3.8xlarge - 32 Core, 244GB Mem", 
+				"RDS db.t2.micro - 1 Core, 1GB Mem", 
+				"RDS db.t2.small - 1 Core, 2GB Mem", 
+				"RDS db.t2.medium - 2 Core, 4GB Mem", 
+				"RDS db.t2.large - 2 Core, 8GB Mem"
+			],
 			"Description" : "Select a Plan"
 		}
 	},
